@@ -3,7 +3,10 @@
 Este projeto permite consultar informações de uma empresa pelo CNPJ utilizando a API da BrasilAPI.
 
 # Dependências
-Bootstrap (incluso via CDN)
+O projeto utiliza as seguintes dependências externas:
+- [Bootstrap](https://getbootstrap.com/)
+- [jQuery](https://jquery.com/)
+- [Popper.js](https://popper.js.org/)
 
 # Funcionalidades
 
@@ -16,17 +19,21 @@ Interface responsiva e intuitiva com Bootstrap.
 ## Como rodar o projeto
 
 1. Clone o repositório:
-    ```sh
-    git clone <url-do-repositorio>
-    ```
+
+    git clone https://github.com/lookfox/testeFrontEnd.git
+    
 2. Navegue até o diretório do projeto:
-    ```sh
-    cd nome-do-diretorio
-    ```
-3. Abra o arquivo `index.html` no seu navegador preferido.
+    
+    cd testeFrontEnd
+    
+
+3. Abra o arquivo `index.html` no navegador:
+    - No Windows: Navegue até o diretório do projeto no File Explorer e clique duas vezes no arquivo `index.html`.
+    - No macOS/Linux: Abra o terminal, navegue até o diretório do projeto e execute o comando:
 
 ## Estrutura do Projeto
 
-- `index.html`: Estrutura básica da página.
-- `styles.css`: Estilos para a página.
-- `script.js`: Lógica de consumo da API e manipulação do DOM.
+|-- index.html
+|-- styles.css
+|-- script.js
+|-- README.md
