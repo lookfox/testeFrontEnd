@@ -30,6 +30,13 @@ Interface responsiva e intuitiva com Bootstrap.
 3. Abra o arquivo `index.html` no navegador:
     - No Windows: Navegue até o diretório do projeto no File Explorer e clique duas vezes no arquivo `index.html`.
     - No macOS/Linux: Abra o terminal, navegue até o diretório do projeto e execute o comando:
+  
+    -  Abrir (Open) index.html
+   
+      ou
+     
+      xdg-open index.html
+   
 
 ## Estrutura do Projeto
 
