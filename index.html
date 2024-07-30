@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de CNPJ</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="mb-4">Consulta de CNPJ</h1>
+        <div class="input-group mb-3">
+            <input type="text" id="cnpjInput" class="form-control" placeholder="Digite o CNPJ" maxlength="18">
+            <div class="input-group-append">
+                <button id="consultarBtn" class="btn btn-success">Consultar</button>
+            </div>
+        </div>
+        <div id="empresaData" class="hidden">
+            <!-- Dados da empresa -->
+        </div>
+        <div id="sociosData" class="hidden">
+            <!-- Dados dos sócios -->
+        </div>
+        <div id="actionButtons" class="text-right hidden">
+            <button id="editBtn" class="btn btn-primary">Editar</button>
+            <button id="saveBtn" class="btn btn-success d-none">Salvar</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
